@@ -12,6 +12,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/ea86b4540c.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
 </head>
 
 <body>
@@ -23,7 +26,7 @@
                 <a href="#section1">
                     <li>Home</li>
                 </a>
-                <a href="#sobre">
+                <a href="#sobre1">
                     <li>Sobre</li>
                 </a>
                 <a href="#projetos">
@@ -51,51 +54,94 @@
         </div>
     </div>
     <!-- Seção sobre mim -->
+    <section id="sobre1">
+        <div class="sobreContainer">
+
+
+            <div class="titleContainer">
+
+                <div class="title"></div>
+                <h1>SOBRE</h1>
+            </div>
+            <div class="sobre hidden">
+                <h1>Oi, eu sou <span>Josué Ledo</span> Designer e Desenvolvedor web</h1>
+                <p>Sou estudante de Sistemas de Informação no Centro Universitário Adventista de São Paulo, apaixonado em desenvolver interfaces.
+                    minha especialidade é o front-end, porém sempre em busca de conhecimento não só do front-end back-end, mas também nas áreas que poderem agregar para minha profissão</p>
+
+            </div>
+        </div>
+        <div class="skills">
+
+            <div class="titleContainer">
+
+                <div class="title"></div>
+                <h1>SKILLS</h1>
+            </div>
+            <p>Algumas técnologias utilizadas por mim para desenvolver aplicações web.</p>
+            <div class="imgContainer">
+
+                <img src="./assets/html.png" alt="html">
+                <img src="./assets/css.png" alt="css">
+                <img src="./assets/javascript.png" alt="javascript">
+                <img src="./assets/bootstrap.png" alt="bootstrap">
+                <img src="./assets/figma.png" alt="figma">
+                <img src="./assets/nodejs.png" alt="node">
+            </div>
+
+        </div>
+
+        <a class="download" href="./cv.pdf" download>Baixar CV</a>
+        <div class="bg"></div>
+    </section>
     <section id="sobre">
         <div class="sobreContainer hidden">
             <div class="cardContainer hidden">
                 <div class="card">
                     <i class="fa-solid fa-brush"></i>
-                    <h3>UI Design</h3>
-                    <p>O design de UI é crucial para proporcionar uma experiência do usuário eficaz e agradável. </p>
-                    <a href="">Saiba mais<i class="fa-solid fa-caret-right"></i></a>
+                    <h3>UI & UX Design</h3>
+                    <p>O design de UI e UX é crucial para proporcionar uma experiência do usuário eficaz e agradável. </p>
+                    <!-- <a href="">Saiba mais<i class="fa-solid fa-caret-right"></i></a> -->
                 </div>
                 <div class="card selected">
-                    <i class="fa-solid fa-brush"></i>
-                    <h3>UI Design</h3>
-                    <p>O design de UI é crucial para proporcionar uma experiência do usuário eficaz e agradável. </p>
-                    <a href="">Saiba mais<i class="fa-solid fa-caret-right"></i></a>
+                    <i class="fa-solid fa-rocket"></i>
+                    <h3>Web Developer</h3>
+                    <p>Como desenvolvedor web, transformo conceitos criativos em experiências dinâmicas e funcionais.</p>
+                    <!-- <a type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false"
+                        aria-controls="collapseExample">Saiba
+                        mais<i class="fa-solid fa-caret-right"></i></a> -->
+
                 </div>
                 <div class="card">
                     <i class="fa-solid fa-brush"></i>
-                    <h3>UI Design</h3>
-                    <p>O design de UI é crucial para proporcionar uma experiência do usuário eficaz e agradável. </p>
-                    <a href="">Saiba mais<i class="fa-solid fa-caret-right"></i></a>
+                    <h3>Designer</h3>
+                    <p>
+                        Como designer, meu objetivo é criar designs visualmente atraentes e funcionais que atendam às necessidades dos clientes e encantem os usuários. </p>
+                    <!-- <a href="">Saiba mais<i class="fa-solid fa-caret-right"></i></a> -->
                 </div>
 
             </div>
             <div class="cardContainer2 hidden">
                 <div class="experience">
                     <h1>2</h1>
-                    <h3>YEARS Eexperience</h3>
+                    <h3>Anos de estudo</h3>
                 </div>
 
                 <div class="subCardContainer">
                     <div class="subCard">
-                        <h3>60+</h3>
-                        <p>Projects</p>
+                        <h3>20+</h3>
+                        <p>Projetos</p>
                     </div>
                     <div class="subCard">
-                        <h3>60+</h3>
-                        <p>Projects</p>
+                        <h3>7+</h3>
+                        <p>Técnologias</p>
                     </div>
                     <div class="subCard">
-                        <h3>60+</h3>
-                        <p>Projects</p>
+                        <h3>20+</h3>
+                        <p>Interfaces</p>
                     </div>
                     <div class="subCard">
-                        <h3>60+</h3>
-                        <p>Projects</p>
+                        <h3>5+</h3>
+                        <p>Certificados</p>
                     </div>
                 </div>
             </div>
@@ -108,21 +154,22 @@
     <section id="projetos">
         <div class="projetosContainer hidden">
 
-            <h1>FEATURED PROJECTS</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+            <h1>PROJETOS EM DESTAQUE</h1>
+            <p>Destaco projetos que representam minha habilidade técnica, criatividade e compromisso com a excelência.</p>
         </div>
         <div class="cards hidden">
 
 
             <div class="card hidden">
                 <a href="https://josueledo.github.io/Porsche/">
-                <div class="imgContainer im1">
-                </div>
-                <div class="info">
-                    <h1>Porche</h1>
-                    <a href="https://josueledo.github.io/Porsche/">Saiba mais<i class="fa-solid fa-caret-right"></i></a>
-                </div>
-            </a>
+                    <div class="imgContainer im1">
+                    </div>
+                    <div class="info">
+                        <h1>Porsche</h1>
+                        <a href="https://josueledo.github.io/Porsche/">Saiba mais<i
+                                class="fa-solid fa-caret-right"></i></a>
+                    </div>
+                </a>
             </div>
 
 
@@ -163,31 +210,34 @@
 
         <div class="textContainer hidden">
             <div class="text">
-                <h1>Let´s work together on your next project</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aliquam ipsa</p>
+                <h1>Vamos trabalhar juntos no seu próximo projeto.</h1>
+                <p>Juntos podemos fazer seu próximo projeto brilhar!<br> Com minha criatividade e habilidades, estou pronto para transformar suas ideias em realidade.</p>
             </div>
-            <button>Contact</button>
+            <button><a href="https://wa.me/553388711659">Contato</a> </button>
         </div>
         <ul>
-            <li><a href="#section1">HOME</a></li>
-            <li><a href="#sobre">SOBRE</a></li>
-            <li><a href="#projetos">PROJETOS</a></li>
+            <li ><a id="back" href="#section1"><i class="fa-solid fa-arrow-up-long"></i></a></li>
+            <li><label for="back">Início</label></li>
         </ul>
 
         <footer>
             <div class="logo">JL</div>
             <div class="social">
-                    <a href="https://www.linkedin.com/in/josue-ledo/"><i id="linkedin"
-                            class="icon fa-brands fa-linkedin fa-2x"></i></a>
-                    <a href="https://github.com/Josueledo"><i id="git" class="icon fa-brands fa-github fa-2x"></i></a>
-                    <a href="https://www.instagram.com/josu_ledo/"><i id="insta"
-                            class="icon fa-brands fa-instagram fa-2x"></i></a>
+                <a href="https://www.linkedin.com/in/josue-ledo/"><i id="linkedin"
+                        class="icon fa-brands fa-linkedin fa-2x"></i></a>
+                <a href="https://github.com/Josueledo"><i id="git" class="icon fa-brands fa-github fa-2x"></i></a>
+                <a href="https://www.instagram.com/josu_ledo/"><i id="insta"
+                        class="icon fa-brands fa-instagram fa-2x"></i></a>
             </div>
             <div class="autor">Created by Josué</div>
         </footer>
         <div class="bg2"></div>
     </section>
 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
     <script src="./js/particles.min.js"></script>
     <script src="./js/particlesjs-config.json"></script>
     <script src="./script.js"></script>

@@ -563,7 +563,7 @@ body {
                 content: "";
                 width: 280px;
                 height: 130px;
-                background: url(./assets/landscapgif.gif);
+                background: url(./assets/red.png);
                 position: absolute;
                 background-size: cover;
                 box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.603);

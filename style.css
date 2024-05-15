@@ -563,9 +563,10 @@ body {
                 content: "";
                 width: 280px;
                 height: 130px;
-                background: url(./assets/red.png);
+                background: url(./assets/logoRed.png);
                 position: absolute;
-                background-size: cover;
+                background-size: contain;
+                background-repeat: no-repeat;
                 box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.603);
                 padding: 20px;
             }
@@ -574,7 +575,7 @@ body {
                 content: "";
                 width: 280px;
                 height: 130px;
-                background: url(./assets/landscapgif.gif);
+                background: url(./assets/lojaRoupas.png);
                 position: absolute;
                 background-size: cover;
                 box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.603);
